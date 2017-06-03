@@ -25,7 +25,7 @@ int main() {
   i = 0;
   while (!trovato) {
     #ifdef __linux__
-	number = rand();
+    number = rand();
     #elif _WIN32
     rand_s(&number);
     #endif
